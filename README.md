@@ -1,37 +1,817 @@
-## Welcome to jokerby page
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>jokerby Homepage</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+ <!-- Custom Theme files -->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="keywords" content="" />
+<!--<link href='http://fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'> -->
+ <!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+ <!---- start-smoth-scrolling---->
+</head>
+	<body>
+		<!-- container -->
+			<!-- header -->
+			<div id="home" class="header">
+				<div class="container">
+				<!-- top-hedader -->
+				<div class="top-header">
+					<!-- /logo -->
+					<!--top-nav---->
+					<div class="top-nav">
+					<div class="navigation">
+					<div class="logo">
+						<h1><a href="index.html"><span>P</span>REFACE</a></h1>
+					</div>
+					<div class="navigation-right">
+						<span class="menu"><img src="images/menu.png" alt=" " /></span>
+						<nav class="link-effect-3" id="link-effect-3">
+							<ul class="nav1 nav nav-wil">
+								<li class="active"><a data-hover="主页" href="index.html">主页</a></li>
+								<li><a class="scroll" data-hover="个人简历" href="#about">个人简历</a></li>
+								<li><a class="scroll" data-hover="学习情况" href="#services" >学习情况</a></li>
+								<li><a class="scroll" data-hover="社会活动" href="#work">社会活动</a></li>
+								<li><a class="scroll" data-hover="社会实践" href="#port">专业实践</a></li>
+								<li><a class="scroll" data-hover="博客" href="#blogs">博客</a></li>
+								<li><a class="scroll" data-hover="联系方式" href="#contact">联系方式</a></li>
+							</ul>
+						</nav>
+							<!-- script-for-menu -->
+								<script>
+								   $( "span.menu" ).click(function() {
+									 $( "ul.nav1" ).slideToggle( 300, function() {
+									 // Animation complete.
+									  });
+									 });
+								</script>
+							<!-- /script-for-menu -->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<!-- /top-hedader -->
+				</div>
+			<div class="banner-info">
+				<div class="col-md-7 header-right">
+					<h1>嗨!</h1>
+					<h6>等你好久了</h6>
+					<ul class="address">
+					
+					<li>
+							<ul class="address-text">
+								<li><b>姓名 </b></li>
+								<li>白悦</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>英文名 </b></li>
+								<li>joker bai</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>电话 </b></li>
+								<li>17736122879</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>地址 </b></li>
+								<li>河北省石家庄市石家庄铁道大学</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>E-MAIL </b></li>
+								<li><a href="mailto:example@mail.com"> 354581011@qq.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>邮编 </b></li>
+								<li><a href="#">056300</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="col-md-5 header-left">
+					<img src="images/img1.jpg" alt="">
+				</div>
+				<div class="clearfix"> </div>
+						
+		      </div>
+			</div>
+		</div>
+	</div>
+			<!-- about -->
+			<div id="about" class="about">
+				<div class="col-md-6 about-left">
+					<div id="owl-demo1" class="owl-carousel owl-carousel2">
+					                <div class="item">
+					                	<div class="about-left-grid">
+											<h2>你好! 我是 <span>白悦</span></h2>
+											<p> 我来自河北邯郸，现在是石家庄铁道大学信息科学与技术学院软件工程专业的一名应届毕业生，在校期间我学习了c++语言，Java语言。学习了解了软件的分析，设计，程序开发，测试，软件项目管理，软件维护等基本概念，基本原理和一些典型的技术方法，能够利用这些概念，原理方法解决软件开发中的实际问题，能够独立开发一定的项目。</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#services">学习情况</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">联系我</a></li>
+											</ul>
+										</div>
+					                </div>
+					                  <div class="item">
+					                	<div class="about-left-grid">
+											<h2>你好!我是 <span>白悦</span></h2>
+                                            <p>在大学期间，我参加了很多专业实践活动，天津东软进行参观培训，完成过石家庄长安公园的导航系统，以及学生管理系统等等，参加了软件杯的比赛和互联网+大赛。在整体的专业实践过程中，我不仅提高了自己的专业技能，也更加的了解自己专业，并且在实践期间自己的能够很好的和团队进行沟通合作，所谓独行快众行远，我们也取得了一定的成绩</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#port">专业实践</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">联系我</a></li>
+											</ul>
+										</div>
+					                </div>
+					                  <div class="item">
+					                	<div class="about-left-grid">
+											<h2>你好! 我是 <span>白悦 </span></h2>
+											<p>从大二开始我开始在我的博客园发表我自己的博客，其中包含自己开发项目进度博客，也有一些阅读相关书籍的读后感，还有的就是在平时学习和实践过程中的一些总结，通过写博客使我自己能够很好的记录自己成长过程，也能够及时发现自己的不足之处。</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#blogs">博客发表</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">联系我</a></li>
+											</ul>
+										</div>
+					                </div>
+					</div>
+				</div>
+				<div class="col-md-6 about-right">
+					
+				</div>
+				<div class="clearfix"> </div>
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo1").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  false,
+						pagination : true,
+					});
+				});
+			</script>
+			<!-- Feedback -->
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo3").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  true,
+						pagination :true,
+					});
+				});
+			</script>
+			</div>
+			<!-- /about -->
+			<!-- services -->
+			<div id="services" class="services">
+				<div class="container">
+					<div class="service-head one text-center ">
+						<h4>我所学的</h4>
+						<h3>我的 <span>学习</span></h3>
+						<span class="border two"></span>
+					</div>
+					<!-- services-grids -->
+					<div class="wthree_about_right_grids w3l-agile">
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-pencil"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>编程语言</h4>
+						<p>在校期间我学习的编程语言有c++，Java，我能够熟练的使用他们进行一系列的软件开发，也通过学习他们使得自己能够通过自学来学习别的编程语言。<p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-cog"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>软件开发</h4>
+						<p>在校期间，我也进行了一系列的软件开发过程，开发过一些小型系统，例如长安公园导航系统，以及参加过一些实时项目的开发，某省重大需求征集系统的开发，有一定软件开发能力。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-leaf"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>其他方面</h4>
+						<p>对于其他方面，我也有良好的学习能力，在我感兴趣的方面，我有积极主动的学习热情。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-gift"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>学习成绩</h4>
+						<p>我的专业课成绩优异，暑期专业实现课程也取得过很好的成绩。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
 
-You can use the [editor on GitHub](https://github.com/baiyueabc/jokerby.github.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+					<!-- services-grids -->
+				</div>
+			</div>
+			<!-- services -->
+			
+			<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<div class="service-head text-center">
+						<h4>我参加的</h4>
+						<h3>社会 <span>活动</span></h3>
+						<span class="border one"></span>
+					</div>
+					<div class="time-main w3l-agile">
+							<div class="col-md-6 year-info">
+							   <ul class="year">
+								   <li>NO.1</li>
+								   <li>NO.2</li>
+								   <li>NO.3</li>
+								   <div class="clearfix"></div>
+								</ul>
+							</div> 
+					                        <ul class="col-md-6 timeline">
+																<li>
+																  <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">圆梦高考</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>参加了全国学联组织的大学生圆梦高考志愿活动，帮助刚刚毕业的高中生，选择适合自己的大学，提供各个大学信息，以及报考帮助，获得了优秀志愿者证书。</p>
+																	  </div>
+																  </div>
+																</li>
+																
+																<li>
+																  <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">参观西柏坡</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>在学校的安排下参加了西柏坡革命圣地，学习了解了西柏坡的革命历史，自己从中学习了革命先烈勇于创新，敢于开拓的革命精神。</p>
+																	  </div>
+																  </div>
+																</li>
+																
+																
+																
+																<li>
+																  <div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">荧光夜跑活动</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>参加了荧光夜跑活动，每天晚上操场跑步40分钟，进行打卡签到，时间为1个月，在这段期间，我不仅锻炼了身体，也锻炼自己的意志力，</p>
+																	  </div>
+																  </div>
+																</li>
+																
+																
+															
+															</ul>
+								<div class="clearfix"></div>
+								</div>
+						</div>
+				</div>
+	<!--//work-experience-->
+<!-- portfolio -->
+		<div id="port" class="portfolio">
+		<div class="container">
+			<div class="service-head text-center">
+						<h4>我参加的</h4>
+						<h3>专业 <span>实践</span></h3>
+						<span class="border one"></span>
+					</div>
+					<div class="time-main w3l-agile">
+							<div class="col-md-6 year-info">
+							   <ul class="year">
+								   <li>NO.1</li>
+								   <li>NO.2</li>
+								   <li>NO.3</li>
+								   <div class="clearfix"></div>
+								</ul>
+							</div> 
+					                        <ul class="col-md-6 timeline">
+																<li>
+																  <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">软件杯比赛</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>参加第七届软件杯大赛，赛题是工商图片信息文字提取项目，在此次比赛中，我带领我的团队参加了比赛，在比赛中提高了自己的实战经验。</p>
+																	  </div>
+																  </div>
+																</li>
+																
+																<li>
+																  <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">互联网+大赛</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>参加互联网+大赛，在大赛中我带领团队提出了深夜独行保护计划------深夜天使项目，在此次的项目中，我们书写了完整的项目策划书，亲自拍摄了我们的宣传视频，此次的比赛使得我的文档书写能力得到提高，并且取得一定成绩。</p>
+																	  </div>
+																  </div>
+																</li>
+																
+																
+																
+																<li>
+																  <div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">东软实习培训</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>暑期的东软实习培训，我学习了大数据的开发和应用，能够对运用大数据的技术来解决生活中的实际问题，在实习培训过程中我系统的了解了有关大数据的知识，运用大数据完成了用户画像。</p>
+																	  </div>
+																  </div>
+																</li>
+																
+																
+															
+															</ul>
+								<div class="clearfix"></div>
+								</div>
+						</div>
+				</div>
+	
+		<!-- portfolio -->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!-- top-grids -->
+				<div class="blog" id="blogs">
+					<div class="container">
+						<div class="service-head text-center">
+						<h4>我所写的</h4>
+						<h3>我的 <span>博客</span></h3>
+						<span class="border one"></span>
+					</div>
+					   <div class="news-grid w3l-agile">
+					    <div class="col-md-6 news-img">
+						  <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/b1.jpg" alt=" " class="img-responsive"></a>
+						 
+						</div>
+					    <div class="col-md-6 news-text">
+						   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">代理模式解析</a></h3>
+							<ul class="news">
+								<li><i class="glyphicon glyphicon-user"></i> <a href="#">管理</a></li>
+								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 评论</a></li>
+								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 喜欢</a></li>
+								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 标签</a></li>
+							</ul>
+							<p>代理模式用于构造具有解耦组件的分布式系统。这些组件可以通过远程服务调用彼此交互。代理组件负责组件之间的通信协调。服务器将其功能(服务和特征)发布给代理。客户端从代理请求服务，然后代理将客户端重定向到其注册中心的适当服务。代理者（Broker）模式可以用于构建带有隔离组件的分布式软件，该软件通过远程服务调用进行交互。</p>
+							<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">了解更多</a>
+					
+						</div>
+		
+						<div class="clearfix"></div>
+					 </div>
+					  <div class="news-grid">
 
-### Markdown
+					    <div class="col-md-6 news-text two">
+						   <h3> <a href="#" data-toggle="modal" data-target="#myModal2"></a>架构漫谈读后感</h3>
+							<ul class="news">
+								<li><i class="glyphicon glyphicon-user"></i> <a href="#">管理</a></li>
+								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 评论</a></li>
+								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 喜欢</a></li>
+								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 标签</a></li>
+							</ul>
+							<p> 读了架构漫谈的博客，在前三篇中，他分别通过架构的概念，通后概念认识架构，以及识别问题三个方面进行了分析。</p>
+							<p> 架构漫谈（一）架构的三重定义，在文章中，作者由架构的产生开始说起，一步一步的结束架构的定义，在文章中共说了三次架构的定义，通过对建筑进化的例子，是我更加能够体会到架构在我们生活中的重要性，在文章中他明确的指出架构概念。</p> 
+							<a href="#" data-toggle="modal" data-target="#myModal2" class="read hvr-shutter-in-horizontal">了解更多</a>
+					
+						</div>
+						<div class="col-md-6 news-img two">
+						   <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/b2.jpg" alt=" " class="img-responsive"></a>
+						 
+						</div>
+						<div class="clearfix"></div>
+					 </div>
+					  <div class="news-grid">
+					    <div class="col-md-6 news-img">
+						  <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/b3.jpg" alt=" " class="img-responsive"></a>
+						 
+						</div>
+					    <div class="col-md-6 news-text">
+						   <h3> <a href="#" data-toggle="modal" data-target="#myModal3"></a>大道至简</h3>
+							<ul class="news">
+								<li><i class="glyphicon glyphicon-user"></i> <a href="#">管理</a></li>
+								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 评论</a></li>
+								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 喜欢</a></li>
+								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 标签</a></li>
+							</ul>
+							<p> 在大道至简的第二章中，他的引例是李冰凿山，这个故事与第一章中的愚公移山产生了很鲜明的对比。愚公“碎石击壤”，李冰“积薪烧之”；愚公人少且工程实现预期时间很长，但李冰带领了上百号人，且必须在短时间内显示目标。两者的对比中我们也可以明白，一个人勤奋固然很好，但是倘若能够花更多的时间去思考，去寻求方法，其实能够做到事半功倍，并且能过使方法更加广为流传。正如愚公与李冰两人移山的方法，后代的人们肯定更多的去使用李冰的方法去尽快实现目标。这也是我们编程的要义所在：优化。</p>
+							<a href="#" data-toggle="modal" data-target="#myModal3" class="read hvr-shutter-in-horizontal">了解更多</a>
+					
+						</div>
+		
+						<div class="clearfix"></div>
+					 </div>
+					</div>
+				</div>
+				<!-- top-grids -->
+	<!-- /blog-pop-->
+			<div class="modal ab fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog about" role="document">
+					<div class="modal-content about">
+						<div class="modal-header">
+							<button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body about">
+								<div class="about">
+									
+									  <div class="about-inner">
+									   
+									      <img src="images/b3.jpg" alt="about"/>
+										     <h4 class="tittle">代理模式</h4>
+										   <p>代理模式用于构造具有解耦组件的分布式系统。这些组件可以通过远程服务调用彼此交互。代理组件负责组件之间的通信协调。服务器将其功能(服务和特征)发布给代理。客户端从代理请求服务，然后代理将客户端重定向到其注册中心的适当服务。代理者（Broker）模式可以用于构建带有隔离组件的分布式软件，该软件通过远程服务调用进行交互。</p>
+										    <p>使用场景:在客户端不能直接访问组件的情况下，通过代理组件进行访问。大致的使用环境，分为一下三类：1.直接访问IP或者组件不安全；2.访问次数特别多；3.对某些网站没有访问权限。 </p>
+ 									       <p> 将要解决的问题：在环境处于情况1时，会有以下几个问题：在访问某些网站时，不想透露自己真实的IP，上网者也希望通过这种方法隐藏自己的IP，免受攻击；对组件直接访问不安全。在环境处于情况2时，会有以下几个问题：对组件的无限制访问低效，需要控制机制（代理模式）。在环境处于情况3时，会有以下几个问题：自身IP访问受限，希望突破自身IP访问限制，访问不能访问的站点，例如一些教育网站。单位或团体资源无法访问，如某大学FTP（前提是该代理地址在该资源 的允许访问范围之内）。使用教育网内地址段免费代理服务器，就可以用于对教育网开放的各类FTP下载上传，以及各类资料查询共享等服务。</p>
+		                                   <p> 解决方案：让客户机通过组件代表访问，而不是通过组件本身进行访问，这种中间的代表组件就是代理，代理提供了原件相同的接口，而且保证了对原件的正确访问，为了完成这种功能，代理保持对它所表示的原件的作用。</p>							 
+									       <p>  实例：假设要做一个电子商务的系统，这个系统无疑需要展示商品、提供购买流程。同时这个系统也需要有针对供应商的订货、发货、入账等流程。除了交易处理，还需要有评价系统管理信用；统计和推荐系统增加销售量；用户帐号系统保障安全和便利等等。这些模块和功能一般比较复杂，但是一般涉及到买家和卖家两个角色，因此往往根据这个规则，划定了两类模块，分别实施其功能，最后通过一个数据平台来存储这些数据。</p>
+										   <p>一种情况是你需要调用的对象在另外一台机器上，你需要跨越网络才能访问，如果让你直接coding去调用，你需要处理网络连接、处理打包、解包等等非常复杂的步骤，所以为了简化客户端的处理，我们使用代理模式，在客户端建立一个远程对象的代理，客户端就象调用本地对象一样调用该代理，再由代理去跟实际对象联系，对于客户端来说可能根本没有感觉到调用的东西在网络另外一端，这实际上就是Web Service的工作原理。另一种情况虽然你所要调用的对象就在本地，但是由于调用非常耗时，你怕影响你正常的操作，所以特意找个代理来处理这种耗时情况，一个最容易理解的就是Word里面装了很大一张图片，在word被打开的时候我们肯定要加载里面的内容一起打开，但是如果等加载完这个大图片再打开Word用户等得可能早已经跳脚了，所以我们可以为这个图片设置一个代理，让代理慢慢打开这个图片而不影响Word本来的打开的功能。</p>
+									 </div>
+												
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //blog-pop-->
+	<!-- /blog-pop-->
+			<div class="modal ab fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog about" role="document">
+					<div class="modal-content about">
+						<div class="modal-header">
+							<button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body about">
+								<div class="about">
+									
+									  <div class="about-inner">
+									   
+									      <img src="images/b3.jpg" alt="about"/>
+										     <h4 class="tittle">架构漫谈读后感</h4>
+										   <p>读了架构漫谈的博客，在前三篇中，他分别通过架构的概念，通后概念认识架构，以及识别问题三个方面进行了分析。</p>
+										   <p> 架构漫谈（一）架构的三重定义，在文章中，作者由架构的产生开始说起，一步一步的结束架构的定义，在文章中共说了三次架构的定义，通过对建筑进化的例子，是我更加能够体会到架构在我们生活中的重要性，在文章中他明确的指出架构概念。</p>
+										   <p>架构在软件发明时的N多年以前，就已经存在了，这个词最早是跟随着建筑出现的。</p>
+										   <p>架构的定义：体系架构包含建筑的过程和规划，产品设计，以及建筑和其他物理结构.</p>
+										   <p>架构的产生：最开始的产生，是在原始生活中通过每个人完成不同的分工，以使得使得每个个体都拥有生活必须品，而不需要每个个体做所有的事情，只需要每个个体做好自己擅长的事情，并具备一定的交易能力即可。形成社会架构。</p>
+										   <p>重新定义架构：把一个整体（完成人类生存的所有工作）切分成不同的部分（分工），由不同角色来完成这些分工，并通过建立不同部分相互沟通的机制，使得这些部分能够有机的结合为一个整体，并完成这个整体所需要的所有活动，这就是架构。</p>
+										   <p>架构产生的动力：必须由人执行，每个人的能力有限，时间有限，人对目标系统有更高的要求，目标系统的复杂性。当这5个条件同时成立，一定会产生架构。从这个层面上来说，架构是人类发展过程中，由懵懵懂懂的，被动的去认识这个世界，变成主动的去认识，并以更高的效率去改造这个世界的方法。（建筑的例子，原始社会分工的例子）</p>
+										   <p>再次定义架构：根据要解决的问题，对目标系统的边界进行界定；并对目标系统按某个原则的进行切分。切分的原则，要便于不同的角色，对切分出来的部分，并行或串行开展工作，一般并行才能减少时间；并对这些切分出来的部分，设立沟通机制；使得这些部分之间能够进行有机的联系，合并组装成为一个整体，完成目标系统的所有工作。</p>
+										   <p>架构实际上就是指人们根据自己对世界的认识，为解决某个问题，主动地、有目的地去识别问题，并进行分解、合并，解决这个问题的实践活动。（分久必合，合久必分）</p>
+										   
+										   </div>
+												
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //blog-pop-->
+	<!-- /blog-pop-->
+			<div class="modal ab fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog about" role="document">
+					<div class="modal-content about">
+						<div class="modal-header">
+							<button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body about">
+								<div class="about">
+									
+									  <div class="about-inner">
+									   
+									      <img src="images/b3.jpg" alt="about"/>
+										     <h4 class="tittle">大道至简</h4>
+										   <p>在大道至简的第二章中，他的引例是李冰凿山，这个故事与第一章中的愚公移山产生了很鲜明的对比。愚公“碎石击壤”，李冰“积薪烧之”；愚公人少且工程实现预期时间很长，但李冰带领了上百号人，且必须在短时间内显示目标。两者的对比中我们也可以明白，一个人勤奋固然很好，但是倘若能够花更多的时间去思考，去寻求方法，其实能够做到事半功倍，并且能过使方法更加广为流传。正如愚公与李冰两人移山的方法，后代的人们肯定更多的去使用李冰的方法去尽快实现目标。这也是我们编程的要义所在：优化。</p>
+										   <p>何为优化，在学习计算机过程中被很多次提起过，优化就是用更加简单的方法去实现目标，这里的简单既可指在时间上的缩短，又可以是在人力物力方面的减少。因为不论是人的精力还是电脑的承载力都是有限的，如果我们只是一味的按照已有的复杂的方法做，即使再努力也是有一定极限的。如果我们想实现突破，我们就必须花时间去思考，看看我们是否有更好的处理方法去完成这件事，这就是优化。这样的思考结果往往能够有新的突破。这也是为何，我们在比较两个程序的优劣时，往往去比较它的时间复杂度，相同的任务量，能够在更短的时间内完成它，那么就是实现了优化。不光局限于编程，在我们生活的方方面面，我们其实都可以做到优化。通过优化来为我们节省时间或者更加充分的享受生活。比如，在旅行时路程的优化，在学习时学习方法的优化，在实现大的目标时，各个小目标时间分配的优化等等。其实任何事情都不会有一个最好的方法，我们也只能不断的去实现优化。</p>
+									       <p>再者，这一章的标题是，懒人造就了方法。正因为传统复杂的方法要么消耗时间，要么消耗精力，而对于懒人来说，为了节省自己的时间和精力，他往往会思考如何能过更好地实现目标，这也就是为什么往往是懒人更容易造就方法。正如一开始我们的程序往往都只写入一个文件中去，然而随着程序量的加大，这样的方法越来越不容易被人接受，所以结构化编程的时代到来，这其实就是优化。</p> 
+									       <p>其实在这一章中，我认为主要就是讲了方法创新。一个人的勤奋的确重要，但更加重要的就是他的创新能力，他往往能够体现出一个人未来能够创造的价值。关于方法的创新，其实更多的应当来源于实践，以及在一个大的氛围中的一个潜移默化。我也会在我以后的学习生活中，多多进行思考，进行方法创新的实践，不论是编写程序，完成一个项目时，实现方法的优化；还是在学习过程中，对知识分类的一个优化，都将是我实践的过程。</p>
+									 </div>
+												
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //blog-pop-->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+			<!-- /header -->
+<div class="footer" id="contact">
+	<div class="container">
+	<div class="service-head one text-center">
+						<h4>联系我</h4>
+						<h3>给你 <span>更大的惊喜</span></h3>
+						<span class="border two"></span>
+					</div>
+		<div class="mail_us">
+			<div class="col-md-6 mail_left">
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<h4>电子邮件联系</h4>
+						<ul>
+							<li>Mail: <a href="mailto:info@example.com">354581011@qq.com</a></li>
+						    <li>给我发邮件有惊喜，要不要试一试</li>
+						    
+						</ul>
+					</div>
+				</div>
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+							<h4>电话联系</h4>
+							<ul>
+								<li>电话: 17736122879</li>
+								<li>24小时为您开机</li>
+							</ul>
+						</div>
+					</div>
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							<h4>我的地址</h4>
+							<ul>
+								<li>地址：河北省石家庄市石家庄铁道大学</li>
+								<li>邮编：056300</li>
+							</ul>
+						</div>
+					</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-6 mail_right">
+				<form action="#" method="post">
+					<input type="text" name="Name" value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '姓名';}" required="">
+					<input type="email" name="Email" value="邮件" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '邮件';}" required="">
+					<input type="text" name="Mobile number" value="电话" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '电话';}" required="">
+					<textarea name="mesage..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '内容...';}" required>内容...</textarea>
+					<input type="submit" value="发送">
+					
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="copy_right text-center">
+			 <ul class="social-icons two">
+							<li><a href="#"> </a></li>
+							<li><a href="#" class="fb"> </a></li>
+							<li><a href="#" class="in"> </a></li>
+							<li><a href="#" class="dott"> </a></li>
+						</ul>
+		</div>
+	</div>
+</div>
+			<!-- //footer -->
+		<!-- /container -->
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic4.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic9.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic5.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic10.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic11.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic13.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic14.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+<!-- //for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	
 
-```markdown
-Syntax highlighted code block
+	</body>
+</html>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/baiyueabc/jokerby.github.com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
